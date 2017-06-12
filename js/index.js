@@ -6,11 +6,18 @@ const render = (root) =>{
   //Append los componentes
   containerAll.append(Title());
   containerAll.append(Description());
-  containerAll.append(SelectedCountrie( _ => {
-    render(root);
-  }));
 
+  if (state.selectedCountrie == "peru") {
+    containerAll.append(SelectedCountrie( _ => {
 
+      render(root);
+    }));
+  } else {
+    containerAll.append(SelectedCountrie( _ => {
+
+      render(root);
+    }));
+  }
   //Adjunta el container a root
   root.append(containerAll);
 };
