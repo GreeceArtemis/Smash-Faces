@@ -1,0 +1,55 @@
+
+*{
+  font-family: Roboto, sans-serif;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+body{
+  width: 90%;
+  margin: auto;
+  font-size: 18px;
+}
+
+section{
+  margin: 30px 0;
+}
+
+.font-rokkitt{
+  font-family: Rokkitt, sans-serif;
+}
+img{
+  width: 300px;
+}
+select{
+  width: 20%;
+  background-color: #cccc;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.div-imagen{
+  float: left;
+}
+.section-game{
+  background-color: #333333;
+  color: white;
+  overflow: auto;
+}
+
+.input-name{
+  box-sizing: border-box;
+  padding: 8px;
+  float: left;
+  width: 55%;
+
+}
+
+.btn{
+  display: block;
+  background-color: #f9a91a;
+  border: 0;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
